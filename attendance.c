@@ -15,11 +15,11 @@ struct subjects{
 
 struct subjects subject[5]; // Subjects are identified by their indices
 
-int enterAttendence(FILE * fp, int code, char * sub) {
+int enterAttendance(FILE * fp, int code, char * sub) {
     int i=0;
     subject[code].days++;
     if(fp) {
-        printf("Enter the attendence for %s:", sub);
+        printf("Enter the attendance for %s:", sub);
         printf("\n");
         for(i=0;i<5;i++) {
             printf("Student %d : ", i+1);
@@ -50,7 +50,7 @@ void doTotal(FILE * fp1, int subCode) {
     }
 }
 
-void readAttendence(char * sub,int code) {
+void readAttendance(char * sub,int code) {
     FILE * fp;
     fp = fopen(sub, "r");
     if(fp) {
@@ -87,38 +87,39 @@ int main() {
         switch(choice) {
             case 1:
                 fp = fopen("maths.txt", "a+");
-                enterAttendence(fp, 0, "Maths");
+                enterAttendance(fp, 0, "Maths");
                 break;
             case 2:
                 fp = fopen("english.txt", "a+");
-                enterAttendence(fp,1, "English");
+                enterAttendance(fp,1, "English");
                 break;
             case 3:
                 fp = fopen("biology.txt", "a+");
-                enterAttendence(fp, 2, "Biology");
+                enterAttendance(fp, 2, "Biology");
                 break;
             case 4:
                 fp = fopen("physics.txt", "a+");
-                enterAttendence(fp, 3, "Physics");
+                enterAttendance(fp, 3, "Physics");
                 break;
             case 5:
                 fp = fopen("chemistry.txt", "a+");
-                enterAttendence(fp, 4, "Chemistry");
+                enterAttendance(fp, 4, "Chemistry");
                 break;
             case 6:
-                readAttendence("maths.txt", 0);
-                readAttendence("english.txt", 1);
-                readAttendence("biology.txt", 2);
-                readAttendence("chemistry.txt", 3);
-                readAttendence("physics.txt", 4);
+                readAttendance("maths.txt", 0);
+                readAttendance("english.txt", 1);
+                readAttendance("biology.txt", 2);
+                readAttendance("chemistry.txt", 3);
+                readAttendance("physics.txt", 4);
                 for(k=0;k<5;k++) {
+                    printf("Subject code: %d\n", k);
                     for(l=0;l<5;l++) {
                         subject[k].student[l].average = (subject[k].student[l].total / (float)subject[k].days) * 100;
-                        printf("Student %d has %d percent attendence\n", l+1, subject[k].student[l].average);
+                        printf("Student %d has %d percent attandence\n", l+1, subject[k].student[l].average);
                     }
                 }
 
-                printf("Students with attendence below average attendence of class is : \n");
+                printf("Students with attendance below average attendance of class is : \n");
                 for(k=0;k<5;k++) {
                     printf("Subject code: %d\n", k);
                     for(l=0;l<5;l++) {
