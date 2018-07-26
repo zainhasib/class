@@ -55,8 +55,7 @@ Student 5 : 0
 Enter the attendence for Physics:
 Student 1 : 1
 Student 2 : 1
-Student 3 :
-0
+Student 3 : 0
 Student 4 : 1
 Student 5 : 1
 
