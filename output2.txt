@@ -1,0 +1,81 @@
+=============================== Choose from the Menu ===============================
+1. Maths.
+2. English.
+3. Biology
+4. Physics
+5. Chemistry
+6. Average
+7. Exit
+6
+Subject code: 0
+Student 1 has 100 percent attendence
+Student 2 has 50 percent attendence
+Student 3 has 0 percent attendence
+Student 4 has 50 percent attendence
+Student 5 has 50 percent attendence
+Average 50
+
+Subject code: 1
+Student 1 has 50 percent attendence
+Student 2 has 50 percent attendence
+Student 3 has 100 percent attendence
+Student 4 has 100 percent attendence
+Student 5 has 100 percent attendence
+Average 80
+
+Subject code: 2
+Student 1 has 0 percent attendence
+Student 2 has 50 percent attendence
+Student 3 has 50 percent attendence
+Student 4 has 0 percent attendence
+Student 5 has 50 percent attendence
+Average 30
+
+Subject code: 3
+Student 1 has 50 percent attendence
+Student 2 has 0 percent attendence
+Student 3 has 50 percent attendence
+Student 4 has 50 percent attendence
+Student 5 has 40 percent attendence
+Average 38
+
+Subject code: 4
+Student 1 has 100 percent attendence
+Student 2 has 50 percent attendence
+Student 3 has 100 percent attendence
+Student 4 has 50 percent attendence
+Student 5 has 100 percent attendence
+Average 80
+
+Students with attendence below average attendence of class are :
+Subject code: 0
+Student 3
+
+
+Subject code: 1
+Student 1
+Student 2
+
+
+Subject code: 2
+Student 1
+Student 4
+
+
+Subject code: 3
+Student 2
+
+
+Subject code: 4
+Student 2
+Student 4
+
+
+1. Maths.
+2. English.
+3. Biology
+4. Physics
+5. Chemistry
+6. Average
+7. Exit
+7
