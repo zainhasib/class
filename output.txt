@@ -1,0 +1,157 @@
+=============================== Choose from the Menu ===============================
+1. Maths.
+2. English.
+3. Biology
+4. Physics
+5. Chemistry
+6. Average
+7. Exit
+1
+Enter the attendence for Maths:
+Student 1 : 1
+Student 2 : 0
+Student 3 : 0
+Student 4 : 0
+Student 5 : 0
+
+1. Maths.
+2. English.
+3. Biology
+4. Physics
+5. Chemistry
+6. Average
+7. Exit
+2
+Enter the attendence for English:
+Student 1 : 1
+Student 2 : 1
+Student 3 : 1
+Student 4 : 1
+Student 5 : 0
+
+1. Maths.
+2. English.
+3. Biology
+4. Physics
+5. Chemistry
+6. Average
+7. Exit
+3
+Enter the attendence for Biology:
+Student 1 : 0
+Student 2 : 0
+Student 3 : 0
+Student 4 : 0
+Student 5 : 0
+
+1. Maths.
+2. English.
+3. Biology
+4. Physics
+5. Chemistry
+6. Average
+7. Exit
+4
+Enter the attendence for Physics:
+Student 1 : 1
+Student 2 : 1
+Student 3 :
+0
+Student 4 : 1
+Student 5 : 1
+
+1. Maths.
+2. English.
+3. Biology
+4. Physics
+5. Chemistry
+6. Average
+7. Exit
+5
+Enter the attendence for Chemistry:
+Student 1 : 1
+Student 2 : 1
+Student 3 : 1
+Student 4 : 0
+Student 5 : 0
+
+1. Maths.
+2. English.
+3. Biology
+4. Physics
+5. Chemistry
+6. Average
+7. Exit
+6
+Subject code: 0
+Student 1 has 100 percent attendence
+Student 2 has 0 percent attendence
+Student 3 has 0 percent attendence
+Student 4 has 0 percent attendence
+Student 5 has 0 percent attendence
+Average 20
+
+Subject code: 1
+Student 1 has 100 percent attendence
+Student 2 has 100 percent attendence
+Student 3 has 100 percent attendence
+Student 4 has 100 percent attendence
+Student 5 has 0 percent attendence
+Average 80
+
+Subject code: 2
+Student 1 has 0 percent attendence
+Student 2 has 0 percent attendence
+Student 3 has 0 percent attendence
+Student 4 has 0 percent attendence
+Student 5 has 0 percent attendence
+Average 0
+
+Subject code: 3
+Student 1 has 100 percent attendence
+Student 2 has 100 percent attendence
+Student 3 has 100 percent attendence
+Student 4 has 0 percent attendence
+Student 5 has 0 percent attendence
+Average 60
+
+Subject code: 4
+Student 1 has 100 percent attendence
+Student 2 has 100 percent attendence
+Student 3 has 0 percent attendence
+Student 4 has 100 percent attendence
+Student 5 has 100 percent attendence
+Average 80
+
+Students with attendence below average attendence of class are :
+Subject code: 0
+Student 2
+Student 3
+Student 4
+Student 5
+
+
+Subject code: 1
+Student 5
+
+
+Subject code: 2
+
+
+Subject code: 3
+Student 4
+Student 5
+
+
+Subject code: 4
+Student 3
+
+
+1. Maths.
+2. English.
+3. Biology
+4. Physics
+5. Chemistry
+6. Average
+7. Exit
+7
